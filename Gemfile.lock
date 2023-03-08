@@ -105,6 +105,9 @@ GEM
       concurrent-ruby (~> 1.1)
       webrick (~> 1.7)
       websocket-driver (>= 0.6, < 0.8)
+    fuubar (2.5.1)
+      rspec-core (~> 3.0)
+      ruby-progressbar (~> 1.4)
     globalid (1.1.0)
       activesupport (>= 5.0)
     hashdiff (1.0.1)
@@ -276,6 +279,7 @@ DEPENDENCIES
   cuprite
   debug
   factory_bot_rails
+  fuubar
   importmap-rails
   n_plus_one_control
   pg (~> 1.1)
