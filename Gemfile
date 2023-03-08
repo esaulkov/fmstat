@@ -76,6 +76,7 @@ end
 
 group :test do
   gem 'cuprite'
+  gem 'test-prof'
   gem 'webmock'
   gem 'zonebie'
 end

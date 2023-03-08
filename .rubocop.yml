@@ -3,6 +3,9 @@ require:
   - rubocop-rails
   - rubocop-rspec
 
+inherit_gem:
+  test-prof: config/rubocop-rspec.yml
+
 AllCops:
   NewCops: enable
   Exclude:
