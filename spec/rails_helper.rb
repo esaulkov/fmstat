@@ -11,6 +11,7 @@ require 'rspec/rails'
 require 'capybara/rspec'
 require 'n_plus_one_control/rspec'
 require 'webmock/rspec'
+require 'zonebie/rspec'
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are

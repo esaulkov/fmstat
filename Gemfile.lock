@@ -266,6 +266,7 @@ GEM
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.6.7)
+    zonebie (0.6.1)
 
 PLATFORMS
   arm64-darwin-22
@@ -293,6 +294,7 @@ DEPENDENCIES
   tzinfo-data
   web-console
   webmock
+  zonebie
 
 RUBY VERSION
    ruby 3.2.0p0
