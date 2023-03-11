@@ -57,6 +57,7 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
   gem 'fuubar'
+  gem 'isolator'
   gem 'n_plus_one_control'
   gem 'rspec-rails'
   gem 'rubocop', require: false
