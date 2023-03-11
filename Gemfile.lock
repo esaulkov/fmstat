@@ -89,6 +89,8 @@ GEM
     cuprite (0.14.3)
       capybara (~> 3.0)
       ferrum (~> 0.13.0)
+    database_consistency (1.7.5)
+      activerecord (>= 3.2)
     database_validations (1.1.1)
       activerecord (>= 4.2.0)
     date (3.3.3)
@@ -280,6 +282,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   cuprite
+  database_consistency
   database_validations
   debug
   factory_bot_rails
