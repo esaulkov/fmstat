@@ -255,6 +255,8 @@ GEM
       sprockets (>= 3.0.0)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
+    strong_migrations (1.4.4)
+      activerecord (>= 5.2)
     tailwindcss-rails (2.0.23-arm64-darwin)
       railties (>= 6.0.0)
     test-prof (1.2.0)
@@ -310,6 +312,7 @@ DEPENDENCIES
   rubocop-rspec
   sprockets-rails
   stimulus-rails
+  strong_migrations
   tailwindcss-rails
   test-prof
   turbo-rails
