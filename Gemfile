@@ -63,6 +63,7 @@ group :development, :test do
   gem 'fuubar'
   gem 'isolator'
   gem 'n_plus_one_control'
+  gem 'next_rails'
   gem 'rspec-rails'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
