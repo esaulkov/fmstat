@@ -48,6 +48,7 @@ gem 'database_validations'
 gem 'rails-pg-extras'
 gem 'slim'
 gem 'strong_migrations'
+gem 'view_component'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
