@@ -46,6 +46,7 @@ gem 'bootsnap', require: false
 
 gem 'database_validations'
 gem 'rails-pg-extras'
+gem 'slim'
 gem 'strong_migrations'
 
 # Use Sass to process CSS
