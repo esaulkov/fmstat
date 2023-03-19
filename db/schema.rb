@@ -10,9 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 0) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_19_093738) do
+  # These are extensions that must be enabled in order to support this database
   enable_extension "pg_buffercache"
   enable_extension "pg_stat_statements"
   enable_extension "plpgsql"
   enable_extension "sslinfo"
+
+  create_table "player_stats", force: :cascade do |t|
+    t.string "uid"
+    t.string "name"
+    t.string "position"
+    t.string "club"
+    t.integer "age"
+    t.integer "wage"
+    t.integer "height"
+    t.string "left_foot"
+    t.string "right_foot"
+    t.jsonb "stat"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
 end
