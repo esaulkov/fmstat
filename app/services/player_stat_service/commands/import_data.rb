@@ -17,7 +17,7 @@ class PlayerStatService::Commands::ImportData
       next if data.blank?
 
       attrs = record_attrs(data)
-      next if attrs.empty?
+      next if attrs.compact_blank.empty?
 
       record = PlayerStat.new(attrs)
       next if record.save
@@ -57,7 +57,7 @@ class PlayerStatService::Commands::ImportData
   def display_error_message(record)
     logger.error('*****************************************')
     logger.error("Can't create record")
-    logger.error(record.errors.full_messages)
+    logger.error(record.errors.full_messages.join('; '))
   end
 
   def logger

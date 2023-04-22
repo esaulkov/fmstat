@@ -19,3 +19,5 @@ Style/ClassAndModuleChildren:
   Enabled: false
 Style/Documentation:
   Enabled: false
+Style/HashSyntax:
+  EnforcedShorthandSyntax: never
