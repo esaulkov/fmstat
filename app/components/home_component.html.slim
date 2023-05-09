@@ -1,1 +1,9 @@
-p Hey! Here is FMStat home!
+table.w-full
+  thead
+    th #
+    th Name
+    th Position
+    th Club
+    th Age
+  tbody
+    = render PlayerRowComponent.with_collection(stats)

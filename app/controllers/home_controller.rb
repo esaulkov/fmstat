@@ -2,6 +2,12 @@
 
 class HomeController < ApplicationController
   def index
-    render(HomeComponent.new)
+    render home_component
+  end
+
+  private
+
+  def home_component
+    @home_component ||= HomeComponent.new(stats: PlayerStat.all)
   end
 end
