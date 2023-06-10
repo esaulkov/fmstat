@@ -1,16 +1,25 @@
-table.w-full
-  thead
-    th #
-    th Name
-    th Position
-    th Club
-    th Age
-    th Height
-    th L.foot
-    th R.foot
-    th Apps
-    th Goals
-    th Av.rat.
-  tbody
+table.w-full.bg-white
+  thead.bg-gray-800.text-white.text-center
+    th.text-center #
+    th.text-center Name
+    th.text-center Position
+    th.text-center Club
+    th.text-cente Age
+    th.text-center Height
+    th.text-center L.foot
+    th.text-center R.foot
+    th.text-center
+      .flex.items-center class='gap-0.5'
+        span Apps
+        = heroicon('arrows-up-down', size: 12)
+    th.text-center
+      .flex.items-center class='gap-0.5'
+        span Goals
+        = heroicon('arrows-up-down', size: 12)
+    th.text-center
+      .flex.items-center class='gap-0.5'
+        span Av.rat.
+        = heroicon('arrows-up-down', size: 12)
+  tbody.text-gray-700
     = render PlayerRowComponent.with_collection(stats)
 == pagy_nav(pagy)
