@@ -9,15 +9,15 @@ table.w-full.bg-white
     th.text-center L.foot
     th.text-center R.foot
     th.text-center
-      .flex.items-center class='gap-0.5'
+      = link_to root_path(sort: 'apps'), class: 'flex items-center gap-0.5' do
         span Apps
         = heroicon('arrows-up-down', size: 12)
     th.text-center
-      .flex.items-center class='gap-0.5'
+      = link_to root_path(sort: 'gls'), class: 'flex items-center gap-0.5' do
         span Goals
         = heroicon('arrows-up-down', size: 12)
     th.text-center
-      .flex.items-center class='gap-0.5'
+      = link_to root_path(sort: 'av_rat'), class: 'flex items-center gap-0.5' do
         span Av.rat.
         = heroicon('arrows-up-down', size: 12)
   tbody.text-gray-700
