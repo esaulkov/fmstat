@@ -59,6 +59,7 @@ gem 'view_component'
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
+  gem 'ask_chatgpt'
   gem 'brakeman', require: false
   gem 'bundler-audit', require: false
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
